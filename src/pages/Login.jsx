@@ -92,7 +92,7 @@ export default function Login() {
                 onClick={() =>
                   setShowPassword(!showPassword)
                 }
-                className="absolute inset-y-0 right-3 flex items-center text-gray-400 hover:text-white"
+                className="absolute inset-y-0 right-3 flex items-center text-black"
               >
                 {showPassword ? (
                   <FaEyeSlash size={18} />
